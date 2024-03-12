@@ -5,7 +5,7 @@
 #### Numeric Data Types
 
 ##### int
-int is a 32-bit numeric data type which accepts numeric numbers from -2 power 32 to +2 power 32.
+int is a 32-bit numeric data type which accepts numeric numbers from -2 power 32 to (+2 power 31) -1.
 
 
 ```
