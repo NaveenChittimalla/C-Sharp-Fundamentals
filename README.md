@@ -26,11 +26,25 @@ namespace CSharpFundamentals
 ```
 ###### Output:
 ```
-Hello World!"
+Hello World!
 ```
 
 ### Identifiers and Keywords
+Identifiers are the names you choose for classes, interfaces, methods, parameters, variables, and so on.
 
+Here are the identifiers in our program.
+
+```
+System CSharpFundamentals Program Main args message Console WriteLine
+```
+
+Keywords are the names which has special meaning to the C# compiler. 
+
+Here are the keywords in our program.
+
+```
+using namespace class static void string
+```
 
 ### Data Types
 
