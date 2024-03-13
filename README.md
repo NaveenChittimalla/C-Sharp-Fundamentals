@@ -46,6 +46,17 @@ Here are the keywords in our program.
 using namespace class static void string
 ```
 
+Keywords are reserved, which means you can't use them as identifiers.
+
+If you really want to use keyword as identifiers and avoid conflict, you can do so by prefixing with @. For example, 
+
+```
+class class {....} // Not allowed
+class @class {....} // Allowed
+```
+Actually, the @ symbol won't be part of the identifier. So, @myClass is same as myClass.
+
+
 ### Data Types
 
 #### Numeric Data Types
