@@ -5,8 +5,9 @@ C# syntax is inspired from C and C++ languages.
 
 Let's describe syntax using the following program.
 
-...
 
+###### Output:
+```
 using System;
 
 namespace CSharpFundamentals
@@ -22,13 +23,10 @@ namespace CSharpFundamentals
       }
    }
 }
-
-...
-
-
+```
 ###### Output:
 ```
-Hello World!
+Hello World!"
 ```
 
 ### Identifiers and Keywords
