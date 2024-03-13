@@ -6,7 +6,7 @@ C# syntax is inspired from C and C++ languages.
 Let's describe syntax using the following program.
 
 
-###### Output:
+###### Print Hello World! program
 ```
 using System;
 
