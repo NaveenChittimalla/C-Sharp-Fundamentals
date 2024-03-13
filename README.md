@@ -50,9 +50,8 @@ Keywords are *reserved*, which means you can't use them as identifiers.
 
 If you really want to use keyword as identifiers and avoid conflicts, you can do so by prefixing with @. For example, 
 
-$${\color{lightgreen}Not \space allowed}$$
 ```
-class class {....} $${\color{lightgreen}// Not \space allowed}$$
+class class {....} $${\color{lightgreen}Not \space allowed}$$
 class @class {....} // Allowed
 ```
 Actually, the @ symbol won't be part of the identifier. So, *@myClass* is same as *myClass*.
