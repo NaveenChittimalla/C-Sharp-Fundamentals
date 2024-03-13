@@ -38,7 +38,7 @@ Here are the identifiers in our program.
 System CSharpFundamentals Program Main args message Console WriteLine
 ```
 
-Keywords are the names which has special meaning to the C# compiler. 
+Keywords are the names that mean something special to the C# compiler. 
 
 Here are the keywords in our program.
 
