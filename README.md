@@ -27,11 +27,9 @@ namespace CSharpFundamentals
 
 
 ###### Output:
-...
-
+```
 Hello World!
-
-...
+```
 
 ### Identifiers and Keywords
 
@@ -41,14 +39,13 @@ Hello World!
 #### Numeric Data Types
 
 ##### int
-int is a 32-bit numeric data type which accepts numeric numbers from $`-2^3^2`$ to $`+2^3^2-1`$.
+int is a 32-bit numeric data type which accepts numeric numbers from -2,147,483,648 to 2,147,483,647.
 
-<p style="color:blue">9</p>
 
 ```
 int number = 9;
 Console.WriteLine(int): 
-Console.WriteLine(int.MaxValue); <span style="color:green;">//-2,147,483,648</span> 
+Console.WriteLine(int.MaxValue);
 Console.WriteLine(int.MinValue); 
 ```
 ###### Output:
