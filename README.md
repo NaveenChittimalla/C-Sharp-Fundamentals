@@ -6,6 +6,7 @@ C# syntax is inspired from C and C++ languages.
 Let's describe syntax using the following program.
 
 ...
+
 using System;
 
 namespace CSharpFundamentals
@@ -14,18 +15,22 @@ namespace CSharpFundamentals
    {
       static void Main(string[] args)
       {
+        string message = "Hello World!";
 
-         string message = "Hello World!";
-         Console.WriteLine(message);
+   Console.WriteLine(message);
 
       }
    }
 }
+
 ...
+
 
 ###### Output:
 ...
+
 Hello World!
+
 ...
 
 ### Identifiers and Keywords
