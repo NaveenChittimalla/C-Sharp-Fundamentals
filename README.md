@@ -6,7 +6,7 @@ C# syntax is inspired from C and C++ languages.
 Let's describe syntax using the following program.
 
 
-###### Print Hello World! program
+**Print Hello World! program**
 ```
 using System;
 
@@ -24,7 +24,7 @@ namespace CSharpFundamentals
    }
 }
 ```
-###### Output:
+Output:
 ```
 Hello World!
 ```
