@@ -56,6 +56,27 @@ class @class {....} // Allowed
 ```
 Actually, the @ symbol won't be part of the identifier. So, *@myClass* is same as *myClass*.
 
+### Variables
+**Variables* represents storage locations. Every variable has a data type that determines what values can be stored in it. Data Types will be discussed in the next section.
+
+ **Declare (Create) a variable**
+Variables can be declared and assigned at once as below.
+
+  Syntax:
+   **type** *variableName* = *value*;
+
+```
+int numberOfMonthsInYear = 12 ; // variable of type int, which can store whole numbers like 12, 123 or -123.
+```
+
+Variables can also be declared without initial assignment and assign a value later in the program.
+
+```
+int numberOfMonthsInYear; // Declare.
+
+numberOfMonthsInYear = 12; // Assign a value.
+
+```
 
 ### Data Types
 
