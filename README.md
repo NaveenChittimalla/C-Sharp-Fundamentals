@@ -57,7 +57,9 @@ class @class {....} // Allowed
 The @ symbol won't be part of the actual identifier. So, *@myClass* is same as *myClass*.
 
 ### Variables
-**Variables** represents storage locations. Every variable has a data type that determines what values can be stored in it. Data Types will be discussed in the next section.
+**Variables** represents storage locations. Every variable in C# has a data type that determines what values can be stored in it. 
+
+*Data Type determines the size, the range of values that can be stored in memory and operations that can be applied to the variables. More about data types in the next section.*
 
 **Declare (Create) a variable**
 Variables can be declared and assigned at once as below.
