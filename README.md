@@ -54,7 +54,7 @@ If you really want to use keyword as identifiers and avoid conflicts, you can do
 class class {....} //Not allowed
 class @class {....} // Allowed
 ```
-Actually, the @ symbol won't be part of the identifier. So, *@myClass* is same as *myClass*.
+The @ symbol won't be part of the actual identifier. So, *@myClass* is same as *myClass*.
 
 ### Variables
 **Variables* represents storage locations. Every variable has a data type that determines what values can be stored in it. Data Types will be discussed in the next section.
