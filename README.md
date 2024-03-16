@@ -94,7 +94,8 @@ Console.WriteLine(int):
 Console.WriteLine(int.MaxValue);
 Console.WriteLine(int.MinValue); 
 ```
-###### Output:
+
+Output:
 ```
  9
 -2,147,483,648 
