@@ -30,7 +30,7 @@ Hello World!
 ```
 
 ### Identifiers and Keywords
-**Identifiers** are the names you choose for classes, interfaces, methods, parameters, variables, and so on.
+**Identifiers** are the names we choose for our classes, interfaces, methods, parameters, variables, and so on.
 
 Here are the identifiers in our program.
 
