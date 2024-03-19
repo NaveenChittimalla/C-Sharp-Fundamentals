@@ -16,9 +16,9 @@ namespace CSharpFundamentals
    {
       static void Main(string[] args)
       {
-        string message = "Hello World!";
 
-   Console.WriteLine(message);
+        string message = "Hello World!";
+    Console.WriteLine(message);
 
       }
    }
