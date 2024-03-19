@@ -1,0 +1,15 @@
+﻿CREATE DATABASE EMS
+GO
+
+CREATE TABLE Employee
+(
+Id INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+EmployeeCode NVARCHAR(250),
+FirstName NVARCHAR(250),
+LastName NVARCHAR(250),
+Department NVARCHAR(250),
+)
+GO
+
+--INSERT INTO Employee(EmployeeCode, FirstName, LastName, Department)
+--values('EMS1','Naveen','Chittimalla','Developer')

@@ -1,0 +1,14 @@
+D:\naveenc\Practices\2024\Console\CSharpFundamentalsSln\EMS.App\obj\Release\net8.0\EMS.App.GeneratedMSBuildEditorConfig.editorconfig
+D:\naveenc\Practices\2024\Console\CSharpFundamentalsSln\EMS.App\obj\Release\net8.0\EMS.App.AssemblyInfoInputs.cache
+D:\naveenc\Practices\2024\Console\CSharpFundamentalsSln\EMS.App\obj\Release\net8.0\EMS.App.AssemblyInfo.cs
+D:\naveenc\Practices\2024\Console\CSharpFundamentalsSln\EMS.App\obj\Release\net8.0\EMS.App.csproj.CoreCompileInputs.cache
+D:\naveenc\Practices\2024\Console\CSharpFundamentalsSln\EMS.App\bin\Release\net8.0\EMS.App.exe
+D:\naveenc\Practices\2024\Console\CSharpFundamentalsSln\EMS.App\bin\Release\net8.0\EMS.App.deps.json
+D:\naveenc\Practices\2024\Console\CSharpFundamentalsSln\EMS.App\bin\Release\net8.0\EMS.App.runtimeconfig.json
+D:\naveenc\Practices\2024\Console\CSharpFundamentalsSln\EMS.App\bin\Release\net8.0\EMS.App.dll
+D:\naveenc\Practices\2024\Console\CSharpFundamentalsSln\EMS.App\bin\Release\net8.0\EMS.App.pdb
+D:\naveenc\Practices\2024\Console\CSharpFundamentalsSln\EMS.App\obj\Release\net8.0\EMS.App.dll
+D:\naveenc\Practices\2024\Console\CSharpFundamentalsSln\EMS.App\obj\Release\net8.0\refint\EMS.App.dll
+D:\naveenc\Practices\2024\Console\CSharpFundamentalsSln\EMS.App\obj\Release\net8.0\EMS.App.pdb
+D:\naveenc\Practices\2024\Console\CSharpFundamentalsSln\EMS.App\obj\Release\net8.0\EMS.App.genruntimeconfig.cache
+D:\naveenc\Practices\2024\Console\CSharpFundamentalsSln\EMS.App\obj\Release\net8.0\ref\EMS.App.dll

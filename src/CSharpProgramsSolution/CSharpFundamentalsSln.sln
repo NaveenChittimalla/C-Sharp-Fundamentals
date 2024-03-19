@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpFundamentals", "CSharpFundamentals\CSharpFundamentals.csproj", "{22682412-B18F-4325-9BAD-6823B51B505A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EMS", "EMS", "{97CFF22C-253E-464D-9B7D-9823910B831E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMS.App", "EMS.App\EMS.App.csproj", "{0C494323-958C-4FD7-A294-DDF48D507DCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22682412-B18F-4325-9BAD-6823B51B505A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22682412-B18F-4325-9BAD-6823B51B505A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22682412-B18F-4325-9BAD-6823B51B505A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22682412-B18F-4325-9BAD-6823B51B505A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C494323-958C-4FD7-A294-DDF48D507DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C494323-958C-4FD7-A294-DDF48D507DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C494323-958C-4FD7-A294-DDF48D507DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C494323-958C-4FD7-A294-DDF48D507DCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0C494323-958C-4FD7-A294-DDF48D507DCD} = {97CFF22C-253E-464D-9B7D-9823910B831E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11DB3DAC-74A9-4248-AE67-D5F493C21A56}
+	EndGlobalSection
+EndGlobal
