@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "MyConsoleHelperLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/MyConsoleHelperLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyConsoleHelperLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyConsoleHelperLibrary/1.0.0": {
+      "type": "project",
+      "path": "../MyConsoleHelperLibrary/MyConsoleHelperLibrary.csproj",
+      "msbuildProject": "../MyConsoleHelperLibrary/MyConsoleHelperLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "MyConsoleHelperLibrary >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "D:\\.nuget": {}
+  },
+  "project": {
+    "version": "2.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\naveenc\\Practices\\2024\\Console\\MyConsoleHelperSolution\\MyConsoleHelper.Client\\MyConsoleHelper.Client.csproj",
+      "projectName": "MyConsoleHelper.Client",
+      "projectPath": "D:\\naveenc\\Practices\\2024\\Console\\MyConsoleHelperSolution\\MyConsoleHelper.Client\\MyConsoleHelper.Client.csproj",
+      "packagesPath": "D:\\.nuget",
+      "outputPath": "D:\\naveenc\\Practices\\2024\\Console\\MyConsoleHelperSolution\\MyConsoleHelper.Client\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\naveen.chittimalla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "D:\\naveenc\\Practices\\2024\\Console\\MyConsoleHelperSolution\\MyConsoleHelperLibrary\\MyConsoleHelperLibrary.csproj": {
+              "projectPath": "D:\\naveenc\\Practices\\2024\\Console\\MyConsoleHelperSolution\\MyConsoleHelperLibrary\\MyConsoleHelperLibrary.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
