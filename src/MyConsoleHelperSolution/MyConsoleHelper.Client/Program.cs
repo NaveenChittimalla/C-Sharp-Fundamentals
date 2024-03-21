@@ -14,6 +14,8 @@
             //int iValueG = MyConsoleHelperLibrary.ReadInput.ReadInputValue<int>();
             //Console.WriteLine("G Integer Value:" + iValueG);
 
+            string firstName = MyConsoleHelperLibrary.ReadInput.ReadInputValue<string>("Enter Firstname", "Invalid Firstname");
+            Console.WriteLine("Age :" + firstName);
             int age = MyConsoleHelperLibrary.ReadInput.ReadInputValue<int>("Enter Age", "Invalid Age");
             Console.WriteLine("Age :" + age);
             age = MyConsoleHelperLibrary.ReadInput.ReadInputValue<int>("Enter Age"
