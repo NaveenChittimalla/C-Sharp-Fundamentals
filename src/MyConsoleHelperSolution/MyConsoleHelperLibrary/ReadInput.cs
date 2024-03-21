@@ -87,29 +87,33 @@ namespace MyConsoleHelperLibrary
                 string inputedValue = Console.ReadLine();
                 switch (typeof(T).Name)
                 {
-                    case "String":
+                    case nameof(String):
                         isValid = !string.IsNullOrEmpty(inputedValue)
                                     && !string.IsNullOrWhiteSpace(inputedValue)
                                     && inputedValue.Trim() != string.Empty;
                         value = (T)(object)inputedValue;
                         break;
-                    case "Int32":
+                    case nameof(Int16):
+                        isValid = short.TryParse(inputedValue, out short shortValue);
+                        value = (T)(object)shortValue;
+                        break;
+                    case nameof(Int32):
                         isValid = int.TryParse(inputedValue, out int intValue);
                         value = (T)(object)intValue;
                         break;
-                    case "Int64":
+                    case nameof(Int64):
                         isValid = long.TryParse(inputedValue, out long longValue);
                         value = (T)(object)longValue;
                         break;
-                    case "Decimal":
+                    case nameof(Decimal):
                         isValid = decimal.TryParse(inputedValue, out decimal decimalValue);
                         value = (T)(object)decimalValue;
                         break;
-                    case "Double":
+                    case nameof(Double):
                         isValid = double.TryParse(inputedValue, out double doubleValue);
                         value = (T)(object)doubleValue;
                         break;
-                    case "Single": //Float
+                    case nameof(Single): //Float
                         isValid = float.TryParse(inputedValue, out float floatValue);
                         value = (T)(object)floatValue;
                         break;
