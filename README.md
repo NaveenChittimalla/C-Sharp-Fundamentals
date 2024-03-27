@@ -116,4 +116,4 @@ Output:
 **.NET Data Provider** provides the classes to connect to a database, to store the data to a database, and to the retrieve the data from a database.
 
 ### Dataset 
-**Dataset** contains one or more data tables that store the data retrieved from the database in application memory on the server disk. Then, the application can manipulate or transform the data in the data tables.
+**Dataset** contains one or more data tables that store the data retrieved from the database in application memory on the server disk and the database connection is closed. Then, the application can manipulate or transform the in-memory data in the data tables. This is referred to as a disconnected data architecture. More about this in the coming sections.
