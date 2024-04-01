@@ -26,3 +26,7 @@
 -  Create a console app to read a number from console.
 -  Number must be valid integer.
 -  Print Times table of entered number as below.
+
+    ![Times Table](/docs/assets/images/TimesTable.png)
+
+  
