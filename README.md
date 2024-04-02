@@ -109,6 +109,89 @@ Output:
 
 ***Note: The equivalent of **using** is a **try finally**, which includes a call to **Dispose** within the **finally** block.***
 
+```
+namespace CsharpFundamentals
+{
+    public class MyDisposableClass : IDisposable
+    {
+        public void Dispose()
+        {
+            //Clean up any unmanagable resources of MyDisposableClass
+        }
+    }
+
+    public class DisposeDemo
+    {
+        public void UsingStatementDemoRun()
+        {
+            using (MyDisposableClass myDisposableClassObjectInstance = new())
+            {
+                // Implement logic
+            }// using statement ensures to invoke Dispose method of  MyDisposableClass,
+             // even if an exception is thrown.  
+        }
+
+        public void TryCatchFinallyDemoRun()
+        {
+            MyDisposableClass myDisposableClassObjectInstance = new();
+            try
+            {
+                // Implement logic
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                myDisposableClassObjectInstance.Dispose();
+            }
+        }
+    }
+}
+```
+
+Example:
+
+```
+namespace CsharpFundamentals
+{
+    public class SqlConnectionDisposeDemo
+    {
+        public void UsingStatementDemoRun()
+        {
+            using (Microsoft.Data.SqlClient.SqlConnection connection = new())
+            {
+                connection.ConnectionString = "Data Source=localhost\\sqlexpress;Initial Catalog=DisposeDemo;Integrated Security=True;Encrypt=False;Trusted_Connection=True;";
+                connection.Open();
+            }// using statement ensures to invoke Dispose method of SqlConnection,
+             // which internally invokes Close() method of SqlConnection object,
+             // even if an exception is thrown.  
+        }
+
+        public void TryCatchFinallyDemoRun()
+        {
+            Microsoft.Data.SqlClient.SqlConnection connection = new();
+            try
+            {
+                // Implement logic
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                if (connection.State == ConnectionState.Open)
+                {
+                    connection.Close();
+                    //connection.Dispose();
+                }
+            }
+        }
+    }
+}
+```
 
 
 ## ADO.NET - Data Access API
