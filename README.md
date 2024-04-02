@@ -102,6 +102,13 @@ Output:
  2,147,483,647 
 ```
 
+### using Statement
+- **using** block can be used on the objects or instances of the classes which inherits from **IDisposable** class and implements **Dispose** method.
+- **using** block does ensure that the object's **Dispose** method will always be invoked, no matter if an exception is thrown or not.
+- **Dispose** is a method used to clean up resources. In the case of a DB connection, the connection is released or closed, which is important.
+
+***Note: The equivalent of **using** is a **try finally**, which includes a call to **Dispose** within the **finally** block.***
+
 
 
 ## ADO.NET - Data Access API
