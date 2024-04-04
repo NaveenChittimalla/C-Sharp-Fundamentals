@@ -1,0 +1,33 @@
+{
+  "firstName": "Naveen",
+  "lastName": "Chittimalla",
+  "age": 34,
+  "married": false,
+  "skills": [ ".Net", "C#", "Azure DevOps", "Angular", "Reactjs" ],
+  "additionalInfo": {
+    "email": "naveen.chittimalla@tarantula.net",
+    "mobileNumber": "99893905XX"
+  },
+  "projects": [
+    {
+      "name": "project1",
+      "role": "Software Developer"
+    },
+    {
+      "name": "project2",
+      "role": "Technical Lead"
+    },
+    {
+      "name": "project3",
+      "role": "Technical Lead"
+    },
+    {
+      "name": "project4",
+      "role": "Technical Lead"
+    },
+    {
+      "name": "Product",
+      "role": "Associate Architect"
+    }
+  ]
+}
