@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Json Formatter</title>
+    <!--<link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/site.css" />-->
+    <style>
+        .container {
+            margin-top: 20px;
+            margin-left: 100px;
+        }
+
+        .btnFormat {
+            background-color: darkgreen;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            cursor: none;
+        }
+
+        .btnMinify {
+            background-color: darkslateblue;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            cursor: none;
+        }
+
+            .btnFormat:hover, .btnMinify:hover {
+                cursor: pointer;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <td colspan="3">
+                    <label id="lblMessage"></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea id="InputJson" rows="20" cols="50">{"firstName":"Naveen","lastName":"Chittimalla","age":34, "married":false, "skills":[".Net", "C#", "Azure DevOps","Angular","Reactjs"]}</textarea>
+                </td>
+                <td>
+                    <button type="button" id="BtnFormatJson" class="btnFormat">Format</button>
+                    <button type="button" id="BtnMinifyJson" class="btnMinify">Minify</button>
+                </td>
+                <td>
+                    <textarea id="OutputJson" rows="20" cols="50"></textarea>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!--<div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <label id="lblMessage"></label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-5">
+                <textarea id="InputJson" rows="20" cols="50">{"firstName":"Naveen","lastName":"Chittimalla","age":34, "married":false, "skills":[".Net", "C#", "Azure DevOps","Angular","Reactjs"]}</textarea>
+            </div>
+            <div class="col-2">
+                <button type="button" id="BtnFormatJson">Format</button>
+                <button type="button" id="BtnMinifyJson">Minify</button>
+            </div>
+            <div class="col-5">
+                <textarea id="OutputJson" rows="20" cols="50"></textarea>
+            </div>
+        </div>
+    </div>-->
+    <script type="text/javascript">
+        (function () {
+            const btnFormatJson = document.getElementById("BtnFormatJson");
+            const btnMinifyJson = document.getElementById("BtnMinifyJson");
+            const inputJsonTextAread = document.getElementById("InputJson");
+            const outputJsonTextAread = document.getElementById("OutputJson");
+            const lblMessage = document.getElementById("lblMessage");
+
+            const clear = () => {
+                outputJsonTextAread.value = ''
+                lblMessage.innerText = ''
+            };
+            const validateInput = (input) => {
+                if (!input || input.value == '') {
+                    alert("Enter json text in the left box");
+                    return;
+                }
+            };
+            const displayError = (err) => {
+                console.log(err);
+                if (err.toString().includes("SyntaxError")) {
+                    lblMessage.innerText = `Invalid Json string: ${err}`;
+                }
+                else {
+                    lblMessage.innerText = err;
+                }
+            };
+            btnFormatJson.addEventListener("click", (e) => {
+                e.preventDefault();
+                clear();
+                validateInput(inputJsonTextAread);
+                try {
+                    const inputJsonObject = JSON.parse(inputJsonTextAread.value)
+                    const formattedJson = JSON.stringify(inputJsonObject, null, 4);
+                    outputJsonTextAread.value = formattedJson;
+                }
+                catch (err) {
+                    displayError(err);
+                }
+            });
+
+            btnMinifyJson.addEventListener("click", (e) => {
+                e.preventDefault();
+                clear();
+                validateInput(inputJsonTextAread);
+                try {
+                    const inputJsonObject = JSON.parse(inputJsonTextAread.value);
+                    const formattedJson = JSON.stringify(inputJsonObject);
+                    outputJsonTextAread.value = formattedJson;
+                }
+                catch (err) {
+                    displayError(err);
+                }
+            });
+        })();
+    </script>
+</body>
+</html>
