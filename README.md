@@ -1,4 +1,24 @@
-# C-Sharp-Fundamentals
+# C-Sharp-Fundamental
+
+### Development Workflow Setup
+
+#### Visual Studio Code
+
+- **light-weight** and **Editor based** experience.
+- **Extension/add-on driven customization and tooling.
+- **Cross platform**.
+- **Open Source**.
+
+#### Visual Studio
+
+- Integrated Development Environment (IDE).
+- More **out-of-the-box** customization and tooling.
+- **Windows focused**.
+- Available in different editions with different licensing models.
+    - **Community** edition, which free.
+    - **Professional**, paid.
+    - **Enterprise**, paid.
+[More about editions](https://visualstudio.microsoft.com/vs/compare/)
 
 ### Syntax
 C# syntax is inspired from C and C++ languages.
