@@ -15,9 +15,9 @@
 - More **out-of-the-box** customization and tooling.
 - **Windows focused**.
 - Available in different editions with different licensing models.
-    - **Community** edition, which free.
-    - **Professional**, paid.
-    - **Enterprise**, paid.
+    - **Community** edition: free.
+    - **Professional**:paid.
+    - **Enterprise**: paid and additional features.
 [More about editions](https://visualstudio.microsoft.com/vs/compare/)
 
 #### Visual Studio for Mac.
