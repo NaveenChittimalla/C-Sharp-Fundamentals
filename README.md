@@ -20,6 +20,8 @@
     - **Enterprise**, paid.
 [More about editions](https://visualstudio.microsoft.com/vs/compare/)
 
+#### Visual Studio for Mac.
+
 ### Syntax
 C# syntax is inspired from C and C++ languages.
 
