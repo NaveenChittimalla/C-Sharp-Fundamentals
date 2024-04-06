@@ -5,7 +5,7 @@
 #### Visual Studio Code
 
 - **light-weight** and **Editor based** experience.
-- **Extension/add-on driven customization and tooling.
+- **Extension/add-on** driven customization and tooling.
 - **Cross platform**.
 - **Open Source**.
 
