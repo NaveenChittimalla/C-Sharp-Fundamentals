@@ -17,3 +17,9 @@
 **Dataset** contains one or more data tables that store the data retrieved from the database in application memory on the server disk and the database connection is closed. Then, the application can manipulate or transform the in-memory data in the data tables. This is referred to as a **disconnected** data architecture. More about this in the coming sections.
 
 ![ADO.NET Architecture](/docs/assets/images/ADO-NET-Architecture.png)
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
